@@ -13,7 +13,7 @@ Run tests using `python -m unittest discover -s . -p "*_test.py"`
 - run image in container: `docker run -d --name <container_name -p 80:80 <image_name>` - example: `docker run -d --name tickets -p 80:80 tickets`
 - OpenAPI docs should be available at http://127.0.0.1/docs
 
-Tickets can be created/modified in `app/ticket_entries_persistence_ticket_loader.py`, currently exists 3 tickets: 
+Tickets can be created/modified in `app/ticket_entries_persistence_ticket_loader.py`, there are currently 3 tickets: 
 - `ticketId1` - one entry ticket
 - `ticketId2` - 10 entries ticket with 7 remaining entries and currently being used 
 - `ticketId3` - no entry-limit ticket
